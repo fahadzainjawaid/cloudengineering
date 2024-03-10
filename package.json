@@ -1,0 +1,17 @@
+{   
+    "name": "cloudengineering-scripts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Fahad Jawaid",
+    "devDependencies": {
+        "objects-to-csv": "^1.3.6",
+        "zx": "^7.2.3"
+    },
+    "dependencies": {
+        "@google-cloud/compute": "4.2.0"
+    }
+}
