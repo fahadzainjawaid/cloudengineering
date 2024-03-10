@@ -4,7 +4,7 @@ import ObjectsToCsv from "objects-to-csv";
 
 $.verbose = false;
 
-const orgID = "1022453717088"; //cloudshift
+const orgID = process.env.organizationId;
 const scope = "organizations/$(orgID)";
 
 const projects = await getProjects();
